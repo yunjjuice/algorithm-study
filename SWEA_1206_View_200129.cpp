@@ -1,17 +1,17 @@
-/* 1206. [S/W ¹®Á¦ÇØ°á ±âº»] 1ÀÏÂ÷ - View D3
+/* 1206. [S/W ë¬¸ì œí•´ê²° ê¸°ë³¸] 1ì¼ì°¨ - View D3
 https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV134DPqAA8CFAYh&categoryId=AV134DPqAA8CFAYh&categoryType=CODE
 
-¸ğµç ºôµù¿¡ ´ëÇØ ¹İº¹:
-	ºôµùÀÌ ÁÂ¿ì 4Ä­ Áß °¡Àå ³ôÀ¸¸é Á¶¸Á±Ç È®º¸
-		-> ³ôÀÌÀÇ Â÷¸¦ Á¤´ä¿¡ ´õÇØÁÜ
-		-> ¿ìÃø 2Ä­Àº È®º¸ ºÒ°¡ => ¹Ù·Î 3Ä­ °Ç³Ê¶Ù±â
+ëª¨ë“  ë¹Œë”©ì— ëŒ€í•´ ë°˜ë³µ:
+	ë¹Œë”©ì´ ì¢Œìš° 4ì¹¸ ì¤‘ ê°€ì¥ ë†’ìœ¼ë©´ ì¡°ë§ê¶Œ í™•ë³´
+		-> ë†’ì´ì˜ ì°¨ë¥¼ ì •ë‹µì— ë”í•´ì¤Œ
+		-> ìš°ì¸¡ 2ì¹¸ì€ í™•ë³´ ë¶ˆê°€ => ë°”ë¡œ 3ì¹¸ ê±´ë„ˆë›°ê¸°
 */
 #include <iostream>
 #include <algorithm>
 using namespace std;
 
 int main() {
-	int N, map[1000]; //°¡·Î ±æÀÌ´Â Ç×»ó 1000 ÀÌÇÏ
+	int N, map[1000]; //ê°€ë¡œ ê¸¸ì´ëŠ” í•­ìƒ 1000 ì´í•˜
 	int answer;
 	for (int testCase = 1; testCase <= 10; testCase++) {
 		cin >> N;
@@ -24,10 +24,10 @@ int main() {
 		answer = 0;
 		int around;
 		for (int i = 2; i < N - 2; i++) {
-			around = max({ map[i - 2], map[i - 1], map[i + 1], map[i + 2] }); //ÁÂ¿ì 4Ä­ Áß °¡Àå ³ôÀº ºôµùÀÇ ³ôÀÌ
-			if (map[i] > around) { //Á¶¸Á±Ç È®º¸
+			around = max({ map[i - 2], map[i - 1], map[i + 1], map[i + 2] }); //ì¢Œìš° 4ì¹¸ ì¤‘ ê°€ì¥ ë†’ì€ ë¹Œë”©ì˜ ë†’ì´
+			if (map[i] > around) { //ì¡°ë§ê¶Œ í™•ë³´
 				answer += map[i] - around;
-				i += 2; //¿ìÃø µÎ Ä­Àº Á¶¸Á±Ç È®º¸ ºÒ°¡
+				i += 2; //ìš°ì¸¡ ë‘ ì¹¸ì€ ì¡°ë§ê¶Œ í™•ë³´ ë¶ˆê°€
 			}
 		}
 

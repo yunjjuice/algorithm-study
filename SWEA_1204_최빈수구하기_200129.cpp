@@ -1,9 +1,9 @@
-/* 1204. [S/W ¹®Á¦ÇØ°á ±âº»] 1ÀÏÂ÷ - ÃÖºó¼ö ±¸ÇÏ±â D2
+/* 1204. [S/W ë¬¸ì œí•´ê²° ê¸°ë³¸] 1ì¼ì°¨ - ìµœë¹ˆìˆ˜ êµ¬í•˜ê¸° D2
 https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV13zo1KAAACFAYh&categoryId=AV13zo1KAAACFAYh&categoryType=CODE
 
-Á¡¼ö º° ÇĞ»ı ¼ö¸¦ ±â·ÏÇÏ´Â ¹è¿­ »ı¼º
-	-> ÀÔ·Â¹ŞÀº ¼ıÀÚ(Á¡¼ö)¸¦ index·Î ÇØ¼­ ¹è¿­ °ª 1¾¿ Áõ°¡½ÃÅ°±â
-	=> °¡Àå °ªÀÌ Å« index°¡ Á¤´ä
+ì ìˆ˜ ë³„ í•™ìƒ ìˆ˜ë¥¼ ê¸°ë¡í•˜ëŠ” ë°°ì—´ ìƒì„±
+	-> ì…ë ¥ë°›ì€ ìˆ«ì(ì ìˆ˜)ë¥¼ indexë¡œ í•´ì„œ ë°°ì—´ ê°’ 1ì”© ì¦ê°€ì‹œí‚¤ê¸°
+	=> ê°€ì¥ ê°’ì´ í° indexê°€ ì •ë‹µ
 */
 #include<iostream>
 using namespace std;
@@ -24,7 +24,7 @@ int main()
 			score[temp]++;
 		}
 
-		int ans = 0, num = 0; //ans: ÃÖºó¼ö, num: ÃÖºó¼ö°¡ µîÀåÇÑ È½¼ö
+		int ans = 0, num = 0; //ans: ìµœë¹ˆìˆ˜, num: ìµœë¹ˆìˆ˜ê°€ ë“±ì¥í•œ íšŸìˆ˜
 		for (int i = 0; i < 101; i++) {
 			if (score[i] >= num) {
 				num = score[i];
