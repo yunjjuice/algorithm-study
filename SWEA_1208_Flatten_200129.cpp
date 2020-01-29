@@ -1,11 +1,11 @@
-/* 1208. [S/W ¹®Á¦ÇØ°á ±âº»] 1ÀÏÂ÷ - Flatten D3
+/* 1208. [S/W ë¬¸ì œí•´ê²° ê¸°ë³¸] 1ì¼ì°¨ - Flatten D3
 https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV139KOaABgCFAYh&categoryId=AV139KOaABgCFAYh&categoryType=CODE
 
-(¹Ýº¹)
-	- ¿À¸§Â÷¼øÀ¸·Î Á¤·Ä
-	-> num[99]-num[0]ÀÌ ³ôÀÌ Â÷
-	-> ¡Ù ÆòÅºÈ­ ¿Ï·á½Ã ¹Ýº¹ Á¾·á
-	-> ÇÑ ¹ø¿¡ ÀÌµ¿½ÃÅ³ ¼ö ÀÖ´Â ÃÖ´ë ¹Ú½º ÀÌµ¿
+(ë°˜ë³µ)
+	- ì˜¤ë¦„ì°¨ìˆœìœ¼ë¡œ ì •ë ¬
+	-> num[99]-num[0]ì´ ë†’ì´ ì°¨
+	-> â˜† í‰íƒ„í™” ì™„ë£Œì‹œ ë°˜ë³µ ì¢…ë£Œ
+	-> í•œ ë²ˆì— ì´ë™ì‹œí‚¬ ìˆ˜ ìžˆëŠ” ìµœëŒ€ ë°•ìŠ¤ ì´ë™
 
 */
 #include <iostream>
