@@ -1,7 +1,7 @@
-/* 1209. [S/W ¹®Á¦ÇØ°á ±âº»] 2ÀÏÂ÷ - Sum D3
+/* 1209. [S/W ë¬¸ì œí•´ê²° ê¸°ë³¸] 2ì¼ì°¨ - Sum D3
 https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV13_BWKACUCFAYh&categoryId=AV13_BWKACUCFAYh&categoryType=CODE
 
-ÇàÀÇ ÇÕ, ¿­ÀÇ ÇÕ, ´ë°¢¼±(2°³)ÀÇ ÇÕ ±¸ÇØ¼­ ÃÖ´ñ°ª Ãâ·Â
+í–‰ì˜ í•©, ì—´ì˜ í•©, ëŒ€ê°ì„ (2ê°œ)ì˜ í•© êµ¬í•´ì„œ ìµœëŒ“ê°’ ì¶œë ¥
 */
 #include <iostream>
 #include <algorithm>
@@ -22,7 +22,7 @@ int main() {
 		//solve
 		int answer = 0;
 		int tmp;
-		for (int i = 0; i < 100; i++) //ÇàÀÇ ÇÕ
+		for (int i = 0; i < 100; i++) //í–‰ì˜ í•©
 		{
 			tmp = 0;
 			for (int j = 0;  j < 100;  j++)
@@ -31,7 +31,7 @@ int main() {
 			}
 			if (tmp > answer)	answer = tmp;
 		}
-		for (int i = 0; i < 100; i++) //¿­ÀÇ ÇÕ
+		for (int i = 0; i < 100; i++) //ì—´ì˜ í•©
 		{
 			tmp = 0;
 			for (int j = 0; j < 100; j++)
@@ -41,13 +41,13 @@ int main() {
 			if (tmp > answer)	answer = tmp;
 		}
 		tmp = 0;
-		for (int j = 0; j < 100; j++) //´ë°¢¼±ÀÇ ÇÕ -1
+		for (int j = 0; j < 100; j++) //ëŒ€ê°ì„ ì˜ í•© -1
 		{
 			tmp += arr[j][j];
 		}
 		if (tmp > answer)	answer = tmp;
 		tmp = 0;
-		for (int j = 0; j < 100; j++) //´ë°¢¼±ÀÇ ÇÕ -2
+		for (int j = 0; j < 100; j++) //ëŒ€ê°ì„ ì˜ í•© -2
 		{
 			tmp += arr[j][99-j];
 		}
