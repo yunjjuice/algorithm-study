@@ -1,11 +1,11 @@
-/* 1208. [S/W 臾몄닿껐 湲곕낯] 1쇱감 - Flatten D3
+/* 1208. [S/W 문제해결 기본] 1일차 - Flatten D3
 https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV139KOaABgCFAYh&categoryId=AV139KOaABgCFAYh&categoryType=CODE
 
-(諛蹂)
-	- ㅻ李⑥쇰 
-	-> num[99]-num[0]  李
-	->   猷 諛蹂 醫猷
-	->  踰 대   理 諛 대
+(반복)
+	- 오름차순으로 정렬
+	-> num[99]-num[0]이 높이 차
+	-> ☆ 평탄화 완료시 반복 종료
+	-> 한 번에 이동시킬 수 있는 최대 박스 이동
 
 */
 #include <iostream>

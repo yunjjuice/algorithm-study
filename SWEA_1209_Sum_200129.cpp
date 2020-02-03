@@ -1,7 +1,7 @@
-/* 1209. [S/W 臾몄닿껐 湲곕낯] 2쇱감 - Sum D3
+/* 1209. [S/W 문제해결 기본] 2일차 - Sum D3
 https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV13_BWKACUCFAYh&categoryId=AV13_BWKACUCFAYh&categoryType=CODE
 
- , 댁 , 媛(2媛)  援ы댁 理媛 異
+행의 합, 열의 합, 대각선(2개)의 합 구해서 최댓값 출력
 */
 #include <iostream>
 #include <algorithm>
@@ -22,7 +22,7 @@ int main() {
 		//solve
 		int answer = 0;
 		int tmp;
-		for (int i = 0; i < 100; i++) // 
+		for (int i = 0; i < 100; i++) //행의 합
 		{
 			tmp = 0;
 			for (int j = 0;  j < 100;  j++)
@@ -31,7 +31,7 @@ int main() {
 			}
 			if (tmp > answer)	answer = tmp;
 		}
-		for (int i = 0; i < 100; i++) //댁 
+		for (int i = 0; i < 100; i++) //열의 합
 		{
 			tmp = 0;
 			for (int j = 0; j < 100; j++)
@@ -41,13 +41,13 @@ int main() {
 			if (tmp > answer)	answer = tmp;
 		}
 		tmp = 0;
-		for (int j = 0; j < 100; j++) //媛  -1
+		for (int j = 0; j < 100; j++) //대각선의 합 -1
 		{
 			tmp += arr[j][j];
 		}
 		if (tmp > answer)	answer = tmp;
 		tmp = 0;
-		for (int j = 0; j < 100; j++) //媛  -2
+		for (int j = 0; j < 100; j++) //대각선의 합 -2
 		{
 			tmp += arr[j][99-j];
 		}
