@@ -21,34 +21,40 @@ public class SWEA1215 {
 			// 가로
 			for (int i = 0; i < ch.length; i++) { // 한 열마다
 				for (int j = 0; j < ch.length-len+1; j++) {
-					boolean flag = true;
+					boolean flagWidth = true;
+					boolean flagHeight = true;
 					for (int k = 0; k < len/2; k++) {
-						if(ch[i][j+k] != ch[i][j+len-k-1]){
-							flag = false;
-							break;
+						if(ch[i][j+k] != ch[i][j+len-k-1] && flagWidth){
+							flagWidth = false;
+						}
+						if(ch[j+k][i] != ch[j+len-k-1][i] && flagHeight){
+							flagHeight = false;
 						}
 					}
-					if(flag){
+					if(flagWidth){
+						count++;
+					}
+					if(flagHeight){
 						count++;
 					}
 				}
 			}
 			
-			// 세로
-			for (int i = 0; i < ch.length; i++) { // 한 행마다
-				for (int j = 0; j < ch.length-len+1; j++) {
-					boolean flag = true;
-					for (int k = 0; k < len/2; k++) {
-						if(ch[j+k][i] != ch[j+len-k-1][i]){
-							flag = false;
-							break;
-						}
-					}
-					if(flag){
-						count++;
-					}
-				}
-			}
+//			// 세로
+//			for (int i = 0; i < ch.length; i++) { // 한 행마다
+//				for (int j = 0; j < ch.length-len+1; j++) {
+//					boolean flag = true;
+//					for (int k = 0; k < len/2; k++) {
+//						if(ch[j+k][i] != ch[j+len-k-1][i]){
+//							flag = false;
+//							break;
+//						}
+//					}
+//					if(flag){
+//						count++;
+//					}
+//				}
+//			}
 			
 			System.out.println("#" + testCase + " " + count);
 		}
