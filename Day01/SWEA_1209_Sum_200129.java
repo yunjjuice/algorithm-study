@@ -46,8 +46,8 @@ public class SWEA1209 {
 			
 			// 반대 대각선
 			sum = 0;
-			for (int i =a.length-1; i >=0; i--) {
-				sum += a[i][i];
+			for (int i =0; i < a.length; i++) {
+				sum += a[i][99-i];
 			}
 			ans = Integer.max(sum, ans);
 			
