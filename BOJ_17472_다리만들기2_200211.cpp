@@ -149,6 +149,45 @@ void findMin(int v, int vnum, int len) {
 	}
 }
 
+/* 아래는 위 함수의 다른 버전 (이것도 Prim인지 아닌지 모르겠음)
+bool has(vector<int> v, int a) {
+	for (int i = 0; i < v.size(); i++) {
+		if (v[i] == a)
+			return true;
+	}
+	return false;
+}
+
+void findMin(vector<int> visited, int len) {
+	if(visited.size() == islandsNum - 1 ) { //전부 방문
+		if (answer > len)	answer = len; //갱신
+		return;
+	}
+
+	int index, min = 10000;
+	for (int i = 0; i < visited.size(); i++) {
+		int v = visited[i];
+		for (int j = 2; j <= islandsNum; j++)
+		{
+			if (has(visited, j))	continue;
+			if (bridge[v][j] != 10) {
+				if (min > bridge[v][j]) {
+					min = bridge[v][j];
+					index = j;
+				}
+			}
+		}
+	}
+
+	if (min == 10000)	return;
+	else
+	{
+		visited.push_back(index);
+		findMin(visited, len + min);
+	}
+}
+*/
+
 int main() {
 	//input
 	cin >> N >> M;
