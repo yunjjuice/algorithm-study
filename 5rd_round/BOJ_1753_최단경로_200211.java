@@ -63,16 +63,18 @@ public class BOJ_1753_최단경로_200211 {
 		
 		//연결노드 distance갱신
 		Arrays.fill(distance, Integer.MAX_VALUE);
-		distance[k] = 0;
-		check[k] = true;
+		distance[k] = 0; // 시작 노드 거리 갱신
+		check[k] = true; // 시작 노드 방문 체크
         for(int i = 0; i < map[k].size(); i++) {
+        	// 첫번째 노드와 연결된 노드들의 거리 갱신
         	LinkNode ln = map[k].get(i);
-            dist.offer(ln);
+            dist.offer(ln); // 최소값을 구하기 위해 priorityQueue에 넣어줌
             if(distance[ln.v] > ln.w)
             	distance[ln.v] = ln.w;
         }
         
-        dijkstra(V, dist, distance, check, map);
+        dijkstra(V, dist, distance, check, map); // 다익스트라
+        
         for(int i = 1; i <= V; i++) {
         	if(distance[i] == Integer.MAX_VALUE) {
         		bw.write("INF" + '\n');
@@ -94,21 +96,21 @@ public class BOJ_1753_최단경로_200211 {
 			while(true) {
 				if(dist.size() == 0) return;
 				LinkNode ln = dist.peek();
-				if(!check[ln.v]) {
-					min = distance[ln.v];
-					minIndex = ln.v;
+				if(!check[ln.v]) { // 방문하지 않았으면
+					min = distance[ln.v]; // 최소값
+					minIndex = ln.v; // 최소값 갖는 인덱스
 					dist.poll();
 					break;
 				} else dist.poll();
 			}
 			
-			check[minIndex] = true;
+			check[minIndex] = true; // 방문 체크
 			// 연결 노드 중에 더 빠른 길이 있다면 갱신
-			for(int j = 0; j < map[minIndex].size(); j++) {
+			for(int j = 0; j < map[minIndex].size(); j++) { // 
 				LinkNode ln = map[minIndex].get(j);
 				if(ln.w + min < distance[ln.v]) {
 					distance[ln.v] = ln.w + min;
-					dist.offer(new LinkNode(ln.v, distance[ln.v]));
+					dist.offer(new LinkNode(ln.v, distance[ln.v])); // 큐에 삽입
 				}
 			}
 		}
