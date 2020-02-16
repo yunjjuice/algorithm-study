@@ -1,11 +1,6 @@
-/* 15686. 치킨 배달
-https://www.acmicpc.net/problem/15686
-*/
-
 #include <iostream>
 #include <algorithm>
 #include <vector>
-#include <climits>
 using namespace std;
 
 #define INFINITY 999999
@@ -51,29 +46,30 @@ int main() {
 	}
 
 	int answer = INFINITY; //infinity
-	for (int m = 1; m <= M; m++) //1 <= m <= M개 고르기
+	vector<int> arr(chickens.size(), 0);
+	for (int i = 1; i <= M; i++)
 	{
-		vector<int> arr(chickens.size(), 0);
-		for (int i = 1; i <= m; i++) {
-			arr[chickens.size() - i] = 1;
-		} //고른 치킨집 배열 (1이면 고른 것)
+		arr[chickens.size() - i] = 1;
+	} //고른 치킨집 배열 (1이면 고르기)
 
-		do {
-			vector<int> chickenDist(houses.size(), INFINITY); //고른 치킨 집들에 대해 각 집의 최소 치킨 거리 찾기
-			for (int i = 0; i < arr.size(); i++) {
-				if (arr[i] == 0)	continue;
-				for (int j = 0; j < chickenDist.size(); j++) {
-					if (dist[i][j] < chickenDist[j])	chickenDist[j] = dist[i][j];
-				}
+	do {
+		vector<int> chickenDist(houses.size(), INFINITY);
+		for (int i = 0; i < arr.size(); i++)
+		{
+			if (arr[i] == 0)	continue;
+			for (int j = 0; j < chickenDist.size(); j++)
+			{
+				if (dist[i][j] < chickenDist[j])	chickenDist[j] = dist[i][j];
 			}
+		}
 
-			int sum = 0; //도시의 치킨 거리
-			for (int i = 0; i < chickenDist.size(); i++) {
-				sum += chickenDist[i];
-			}
-			if (answer > sum)	answer = sum; //갱신
-		} while (next_permutation(arr.begin(), arr.end())); //m개를 고르는 모든 방법 탐색
-	}
+		int sum = 0;
+		for (int i = 0; i < chickenDist.size(); i++)
+		{
+			sum += chickenDist[i];
+		}
+		if (answer > sum)	answer = sum;
+	} while (next_permutation(arr.begin(), arr.end()));
 
 	//output
 	cout << answer;
