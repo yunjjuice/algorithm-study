@@ -48,25 +48,29 @@ public class BOJ11559 {
 			}
 			
 //			// 뿌요 사라진 거 확인
+//			System.out.println("뿌요 사라진 거 확인");
 //			for (int i = 0; i < 12; i++) {
 //				System.out.println(Arrays.toString(map[i]));
 //			}
 //			System.out.println();
-			
+
 			// 아래로 내려준다
 			for (int i = 0; i < 6; i++) {
-				int index = 11;
 				for (int j = 11; j >= 0; j--) {
-					if(index <= j)
-						continue;
-					if(map[index][i] == '.' && map[j][i] != '.'){
-						map[index][i] = map[j][i];
-						map[j][i] = '.';
-						index--;
+					if(map[j][i] != '.') {
+						for (int k = 11; k > j; k--) {
+							if(map[k][i] == '.') {
+								char tmp = map[k][i];
+								map[k][i] = map[j][i];
+								map[j][i] = tmp;
+							}
+						}
 					}
 				}
 			}
+			
 //			// 아래로 내려간거 확인
+//			System.out.println("뿌요 아래로 내려간거 확인");
 //			for (int i = 0; i < 12; i++) {
 //				System.out.println(Arrays.toString(map[i]));
 //			}
