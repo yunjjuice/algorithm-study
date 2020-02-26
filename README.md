@@ -33,3 +33,6 @@ ex. SWEA_1208_Flatten_200129
 |5회|2월14일(금)|[BOJ 15686 치킨배달](https://www.acmicpc.net/problem/15686) * [BOJ 17143 낚시왕](https://www.acmicpc.net/problem/17143) * [BOJ 1753 최단경로](https://www.acmicpc.net/problem/1753)|
 |6회|2월17일(월)|[BOJ 5014 스타트링크](https://www.acmicpc.net/problem/5014) * [BOJ 15684 사다리조작](https://www.acmicpc.net/problem/15684)|
 |7회|2월23일(일)|[BOJ 1915 가장 큰 정사각형](https://www.acmicpc.net/problem/1915) * [BOJ 5557 1학년](https://www.acmicpc.net/problem/5557)|
+|8회|2월25일(화)|[BOJ 2631 줄세우기](https://www.acmicpc.net/problem/2631) * [BOJ 11559 Puyo Puyo](https://www.acmicpc.net/problem/11559)|
+|9회|2월26일(수)|[BOJ 1062 가르침](https://www.acmicpc.net/problem/1062) * [BOJ 1300 K번째 수](https://www.acmicpc.net/problem/1300)|
+|10회|2월27일(목)|[BOJ 1600 말이 되고픈 원숭이](https://www.acmicpc.net/problem/1600) * [BOJ 2252 줄 세우기](https://www.acmicpc.net/problem/2252)|
