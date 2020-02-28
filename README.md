@@ -21,6 +21,10 @@ ex. SWEA_1208_Flatten_200129
 - 7회차 ~
   - 평일 : 보충 문제 및 과제 리뷰
   - 일요일 : 정해진 시간에 모여서 문제 풀고 리뷰하기 (실전 대비)
+- 8회차 ~
+  - 하루 두 문제
+- 11회차 ~
+  - 하루 한 문제 + 과제 한 문제
 
 
 ### 문제 목록
@@ -36,3 +40,4 @@ ex. SWEA_1208_Flatten_200129
 |8회|2월25일(화)|[BOJ 2631 줄세우기](https://www.acmicpc.net/problem/2631) * [BOJ 11559 Puyo Puyo](https://www.acmicpc.net/problem/11559)|
 |9회|2월26일(수)|[BOJ 1062 가르침](https://www.acmicpc.net/problem/1062) * [BOJ 1300 K번째 수](https://www.acmicpc.net/problem/1300)|
 |10회|2월27일(목)|[BOJ 1600 말이 되고픈 원숭이](https://www.acmicpc.net/problem/1600) * [BOJ 2252 줄 세우기](https://www.acmicpc.net/problem/2252)|
+|11회|2월28일(금)|[BOJ 2352 반도체 설계](https://www.acmicpc.net/problem/2352) * [SWEA 1952 수영장](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV5PpFQaAQMDFAUq)|
