@@ -44,5 +44,5 @@ ex. SWEA_1208_Flatten_200129
 |12회|2월29일(토)|[BOJ 3709 레이저빔은 어디로](https://www.acmicpc.net/problem/3709)|
 |13회|3월1일(일)|[BOJ 3967 매직 스타](https://www.acmicpc.net/problem/3967)|
 |14회|3월2일(월)|A [SWEA 1247 최적 경로](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV15OZ4qAPICFAYD) * A+ [SWEA 2814 최장 경로](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV7GOPPaAeMDFAXB) * [SWEA 4534 트리 흑백 색칠](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AWO6esOKOKQDFAWw)|
-
+|15회|3월3일(화)|A [SWEA 7699 수지의 수지 맞는 여행](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AWqUzj0arpkDFARG) * A+ [SWEA 1907 모래성 쌓기](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV5PNx_KACIDFAUq) * [SWEA 8382 방향 전환](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AWyNQrCahHcDFAVP)|
 
