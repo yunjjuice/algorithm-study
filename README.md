@@ -24,8 +24,8 @@ ex. SWEA_1208_Flatten_200129
 - 8회차 ~
   - 하루 두 문제
 - 11회차 ~
-  - 하루 한 문제 + 과제 한 문제
-
+  - 평일 : A 문제, A+ 문제(신청자), 기출 문제(풀 사람만)
+  - 주말 : 하루 한 문제
 
 ### 문제 목록
 |　　　회차|　　　　　날짜|문제|
@@ -45,4 +45,6 @@ ex. SWEA_1208_Flatten_200129
 |13회|3월1일(일)|[BOJ 3967 매직 스타](https://www.acmicpc.net/problem/3967)|
 |14회|3월2일(월)|A [SWEA 1247 최적 경로](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV15OZ4qAPICFAYD) * A+ [SWEA 2814 최장 경로](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV7GOPPaAeMDFAXB) * [SWEA 4534 트리 흑백 색칠](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AWO6esOKOKQDFAWw)|
 |15회|3월3일(화)|A [SWEA 7699 수지의 수지 맞는 여행](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AWqUzj0arpkDFARG) * A+ [SWEA 1907 모래성 쌓기](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV5PNx_KACIDFAUq) * [SWEA 8382 방향 전환](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AWyNQrCahHcDFAVP)|
-
+|16회|3월4일(수)|A [SWEA 9282 초콜릿과 건포도](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AW9j-qfacIEDFAUY) * A+ [SWEA 8275 햄스터](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AWxQ310aOlQDFAWL) * [SWEA 7988 내전 경기](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AWvQZmdKUoEDFASy) * 기타 [BOJ 14499 주사위 굴리기](https://www.acmicpc.net/problem/14499)|
+|17회|3월5일(목)|A  * A+  * * 기타 [BOJ 14503 연구소](https://www.acmicpc.net/problem/14502)|
+|18회|3월6일(금)|A  * A+  * * 기타 [BOJ 14890 경사로](https://www.acmicpc.net/problem/14890)|
