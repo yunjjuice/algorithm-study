@@ -1,6 +1,6 @@
 # algorithm-study
 
-### 명명 규칙
+### 파일 명명 규칙
 
 사이트 이름_문제 번호_문제 이름_최초 업로드 날짜
 
@@ -11,10 +11,18 @@ ex. SWEA_1208_Flatten_200129
   - SWEA : SW Expert Academy
   - JO : 정올
   - PROG : 프로그래머스
+  
+### 커밋 메시지 규칙
+
+문제푼날짜 사이트이름 문제번호 문제이름 [난이도]
+
+### 풀 리퀘스트 
+
+n회차_이름
 
 
 ### 참여자
-[김기훈](https://github.com/kingkihoon94) [박혜진](https://github.com/du-dung) [천용진](https://github.com/sharhp21) [최윤주](https://github.com/yeomju311)
+[김기훈](https://github.com/kingkihoon94) [박혜진](https://github.com/du-dung) [천용진](https://github.com/sharhp21) [최윤주](https://github.com/yeomju311) [김경재](https://github.com/kyungjae-kim)
 
 
 ### 운영방법
