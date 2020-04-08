@@ -19,7 +19,7 @@ bool solution(vector<string> phone_book) {
 }
 
 int main(){
-    cout << solution({"119", "97674223", "1195524421"}) << '\n'; //false
-    cout << solution({"123", "456", "789"}) << '\n'; //true
-    cout << solution({"12", "123", "1235", "567", "88"}) << '\n'; //false
+    cout << solution({"119", "97674223", "1195524421"}) << '\n' //false
+        << solution({"123", "456", "789"}) << '\n' //true
+        << solution({"12", "123", "1235", "567", "88"}) << '\n'; //false
 }
