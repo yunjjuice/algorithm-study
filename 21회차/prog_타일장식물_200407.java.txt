@@ -1,0 +1,19 @@
+class Solution {
+    public long[] memo = new long[82];
+    public long solution(int N) {
+        // 한변의 길이
+        // f(1),f(2) = 1
+        // f(n) = f(n-1) + f(n-2)
+        memo[1] = 1;
+        memo[2] = 1;
+        
+        for(int i=3; i<=N+1; i++){
+            memo[i] = memo[i-1] + memo[i-2];
+        }
+        
+        // 둘레의 길이
+        // 2*f(n+1) + 2*f(n)
+        long answer = 2*(memo[N+1] + memo[N]);
+        return answer;
+    }
+}
