@@ -1,0 +1,21 @@
+class Solution {
+    static int[] num;
+    public int solution(int[] stones, int k) {
+        num = stones;
+        int answer = 200000001;
+        int idx = 0;
+        for(int i = -1;i<stones.length-k;){
+            int tmp = 0;
+            for(int j= i +1;j<=i+k;j++)
+            {
+                if(tmp<stones[j]){
+                    tmp = stones[j];
+                    idx = j;
+                }
+            }
+            answer = answer < tmp ? answer : tmp;
+            i = idx;
+        }
+        return answer;
+    }
+}
