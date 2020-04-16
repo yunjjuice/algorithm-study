@@ -1,0 +1,30 @@
+class Solution {
+  public int[] solution(int n) {
+      int[] answer = {};
+      String temp = "";
+      for(int i=1; i<=n ;i++){
+          temp = paper(i,temp);
+      }
+      answer = new int[temp.length()];
+      String[] list = temp.split("");
+      for(int i=0; i<temp.length(); i++){
+          answer[i] = Integer.valueOf(list[i]);
+      }
+      return answer;
+  }//main.
+    
+  public static String paper(int num, String temp){
+        StringBuilder result = new StringBuilder(temp);
+	    if (num == 1) return "0";
+		else {
+			result.append("0");
+			String[] split = temp.split("");
+			for(int j = split.length-1; j>=0; j--) {
+				String tmp = split[j].equals("0") ? "1" : "0" ;
+				result.append(tmp);				
+			}
+		}
+		return result.toString();
+  }//end paper.
+    
+}//end main.

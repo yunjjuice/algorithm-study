@@ -1,0 +1,24 @@
+class Solution {
+    public int solution(int[] budgets, int M) {
+        int left = 0;
+        int right = 0;
+        int answer = 0;
+        for(int tmp :  budgets){
+            if(right < tmp) right = tmp;
+        }
+        while(left<=right){
+            int mid = (left+right)/2;
+            int total = 0;
+            for(int tmp: budgets){
+                if(mid >= tmp) total += tmp;
+                else total += mid;
+            }
+            if(M < total) right = mid-1;
+            else{
+                answer = mid;
+                left = mid+1;
+            }
+        }
+        return answer;
+    }
+}
