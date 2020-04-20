@@ -1,0 +1,42 @@
+import java.util.*;
+
+class Solution {
+    
+    static class Truck{
+        int weight;
+        int time;
+        public Truck(int weight, int time){
+            this.weight = weight;
+            this.time = time;
+        }
+    }//class Truck.
+    
+    public int solution(int bridge_length, int weight, int[] truck_weights) {
+        Queue<Truck> wait = new LinkedList<Truck>();
+        Queue<Truck> bridge = new LinkedList<Truck>();
+        for(int i=0; i<truck_weights.length; i++){
+            wait.add(new Truck(truck_weights[i], 0));
+        }// 대기열에 입력값 넣기.
+        int time = 0;
+        int sum = 0;
+        while(!wait.isEmpty() || !bridge.isEmpty()){
+            time++;
+            if(!bridge.isEmpty()){ //시간별로 다리 맨 앞의 트럭 다리 지나는지 확인.
+                Truck temp = bridge.peek();
+                if(time - temp.time == bridge_length){
+                    sum -= temp.weight;
+                    bridge.poll();
+                }
+            }
+            if(!wait.isEmpty()){ //시간별로 대기열 맨앞 트럭이 다리에 올라갈 수 있는지 확인.
+                Truck temp = wait.peek();
+                if(weight >= temp.weight + sum){
+                    bridge.add(new Truck(temp.weight, time));
+                    sum += temp.weight;
+                    wait.poll();
+                }
+            }
+        }//end simulation.
+        return time;
+    }//end main.
+}//end class.
