@@ -1,0 +1,19 @@
+class Solution {
+    public int solution(String skill, String[] skill_trees) {
+        int answer = 0;
+        for(int i=0; i<skill_trees.length; i++){ //예시. 4개의 스킬트리.
+            int idx = 0;
+            boolean flag = true;
+            for(int j=0; j< skill_trees[i].length(); j++){ //"BACDE" 를 고르는거.
+                for(int k=idx; k<skill.length(); k++){ //"CBD"와 비교. 
+                    if(skill.charAt(k) == skill_trees[i].charAt(j)){
+                        if(k!=idx) flag = false;
+                        else idx++;
+                    }
+                }
+            }
+            if(flag) answer ++;
+        }
+        return answer;
+    }
+}

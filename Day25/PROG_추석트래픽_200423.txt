@@ -1,0 +1,42 @@
+import java.io.*;
+import java.util.*;
+
+class Solution {
+  public int solution(String[] lines) {
+      StringTokenizer st;
+      long [][] time = new long[lines.length][2];
+      for(int i=0; i<lines.length; i++){
+          st = new StringTokenizer(lines[i]);
+          st.nextToken();
+          String tmp = st.nextToken();
+          String tmp2 = st.nextToken();
+          Double temp = Double.parseDouble(tmp2.substring(0,tmp2.length()-1));
+          long duration = (long)(temp * 1000);
+          st = new StringTokenizer(tmp , ":");
+          long end = 0L;
+          temp = Double.parseDouble(st.nextToken());
+          end += (long)(3600 * temp * 1000);
+          temp = Double.parseDouble(st.nextToken());
+          end += (long)(60 * temp * 1000);
+          temp = Double.parseDouble(st.nextToken());
+          end += (long)(temp * 1000);
+          time[i][1] = end;
+          time[i][0] = end-duration+1;
+      }
+      int answer = 0;
+      for(int i=0; i<lines.length; i++){ //입력자체가 순서있네.
+          long from_first = time[i][1];
+          long from_end = from_first + 999;
+          int cnt = 0;
+          for(int j=0; j<lines.length; j++){
+              long to_first = time[j][0];
+              long to_end = time[j][1];
+              if(from_end < to_first) continue;
+              if((from_first <= to_first && from_end >= to_first) || (from_first <= to_end && from_end >= to_end) || 
+                 (from_first > to_first && from_end < to_end)) cnt++;
+          }
+          if(cnt > answer) answer = cnt;
+      }
+      return answer;
+    }
+}
