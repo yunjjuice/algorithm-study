@@ -1,0 +1,28 @@
+class Solution {
+    static int N;
+    static int answer;
+    static int[] queen;
+    public int solution(int n) {
+        answer = 0;
+        N = n;
+        queen = new int[N];
+        for(int i=0; i<N; i++){
+            queen[0] = i;
+            dfs(0);
+        }
+        return answer;
+    }
+    public static void dfs(int idx){
+        for(int i=0; i<idx; i++){
+            if(queen[i] == queen[idx] || Math.abs(queen[i]-queen[idx]) == Math.abs(i-idx)) return ;
+        }//될수있는 곳인가.
+        if(idx==N-1) {
+            answer++; 
+            return ;
+        }//그런 경우로 N까지 왔는가.
+        for(int i=0; i<N; i++){
+            queen[idx+1] = i;
+            dfs(idx+1);
+        }//다음 경우로 넣어보기.
+    }//end dfs.
+}//end class.
