@@ -65,3 +65,6 @@ n회차_이름
 |20회|3월8일(일)|[BOJ 6549 히스토그램에서 가장 큰 직사각형](https://www.acmicpc.net/problem/6549)|
 |21회|4월9일(목)|[PROG 타일 장식물](https://programmers.co.kr/learn/courses/30/lessons/43104) * [PROG 전화번호 목록](https://programmers.co.kr/learn/courses/30/lessons/42577)|
 |22회|4월12일(일)|[PROG 징검다리 건너기](https://programmers.co.kr/learn/courses/30/lessons/64062) * [PROG 다트 게임](https://programmers.co.kr/learn/courses/30/lessons/17682)|
+|23회|4월16일(목)|[PROG 종이접기](https://programmers.co.kr/learn/courses/30/lessons/62049) * [PROG 예산](https://programmers.co.kr/learn/courses/30/lessons/43237)|
+|24회|4월19일(일)|[PROG 다리를 지나는 트럭](https://programmers.co.kr/learn/courses/30/lessons/42583) * [BOJ 17822 원판 돌리기](https://www.acmicpc.net/problem/17822) * [BOJ 17825 주사위 윷놀이](https://www.acmicpc.net/problem/17825)|
+|25회|4월23일(목)|[PROG N-Queen](https://programmers.co.kr/learn/courses/30/lessons/12952) * [PROG 스킬트리](https://programmers.co.kr/learn/courses/30/lessons/49993) * [PROG 추석 트래픽](https://programmers.co.kr/learn/courses/30/lessons/17676)|
