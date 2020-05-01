@@ -1,5 +1,5 @@
 /*
- * programmers lv3 스킬트리
+ * programmers lv2 스킬트리
  */
 
 public class PROG_스킬트리_200422 {
