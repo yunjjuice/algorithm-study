@@ -1,4 +1,4 @@
-/* 스킬트리 Level 3
+/* 스킬트리 Level 2
 https://programmers.co.kr/learn/courses/30/lessons/49993
  */
 #include <string>
