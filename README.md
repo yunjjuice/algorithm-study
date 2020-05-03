@@ -68,3 +68,5 @@ n회차_이름
 |23회|4월16일(목)|[PROG 종이접기](https://programmers.co.kr/learn/courses/30/lessons/62049) * [PROG 예산](https://programmers.co.kr/learn/courses/30/lessons/43237)|
 |24회|4월19일(일)|[PROG 다리를 지나는 트럭](https://programmers.co.kr/learn/courses/30/lessons/42583) * [BOJ 17822 원판 돌리기](https://www.acmicpc.net/problem/17822) * [BOJ 17825 주사위 윷놀이](https://www.acmicpc.net/problem/17825)|
 |25회|4월23일(목)|[PROG N-Queen](https://programmers.co.kr/learn/courses/30/lessons/12952) * [PROG 스킬트리](https://programmers.co.kr/learn/courses/30/lessons/49993) * [PROG 추석 트래픽](https://programmers.co.kr/learn/courses/30/lessons/17676)|
+|26회|4월26일(일)|[BOJ 17779 게리맨더링 2](https://www.acmicpc.net/problem/17779) * [BOJ 17837 새로운 게임 2](https://www.acmicpc.net/problem/17837)|
+|27회|5월3일(일)|[BOJ 17140 이차원 배열과 연산](https://www.acmicpc.net/problem/17140) * [BOJ 17142 연구소 3](https://www.acmicpc.net/problem/17142)|
