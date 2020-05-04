@@ -1,0 +1,27 @@
+class Solution {
+  public int solution(String dartResult) {
+      int j=0;
+      int cnt = -1;
+      int[] list = new int[dartResult.length()];
+      for(int i=0; i<dartResult.length(); i++){
+          switch(dartResult.charAt(i)){
+              case 'S': list[++cnt] = Integer.parseInt(dartResult.substring(j,i)); j=i+1; break;
+              case 'D': list[++cnt] = (int)Math.pow(Integer.parseInt(dartResult.substring(j,i)),2); j=i+1; break;
+              case 'T': list[++cnt] = (int)Math.pow(Integer.parseInt(dartResult.substring(j,i)),3); j=i+1; break;
+              case '*': 
+                  for(int k=0; k<2; k++){
+                     if(cnt-k<0) break;
+                     list[cnt-k] *= 2; 
+                  }
+                  j = i+1;
+                  break;
+              case '#': list[cnt] *= -1; j = i+1; break;
+          }
+      }
+      int answer = 0;
+      for(int i=0; i<=cnt; i++){
+          answer += list[i];
+      }
+      return answer;
+  }
+}
