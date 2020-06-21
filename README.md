@@ -70,3 +70,5 @@ n회차_이름
 |25회|4월23일(목)|[PROG N-Queen](https://programmers.co.kr/learn/courses/30/lessons/12952) * [PROG 스킬트리](https://programmers.co.kr/learn/courses/30/lessons/49993) * [PROG 추석 트래픽](https://programmers.co.kr/learn/courses/30/lessons/17676)|
 |26회|4월26일(일)|[BOJ 17779 게리맨더링 2](https://www.acmicpc.net/problem/17779) * [BOJ 17837 새로운 게임 2](https://www.acmicpc.net/problem/17837)|
 |27회|5월3일(일)|[BOJ 17140 이차원 배열과 연산](https://www.acmicpc.net/problem/17140) * [BOJ 17142 연구소 3](https://www.acmicpc.net/problem/17142)|
+|28회|5월3일(일)|[PROG 외벽점검 lv3](https://programmers.co.kr/learn/courses/30/lessons/60062) * [PROG 기둥과 보 설치 lv3](https://programmers.co.kr/learn/courses/30/lessons/60061)|
+|29회|5월3일(일)|[PROG 길 찾기 게임 lv3](https://programmers.co.kr/learn/courses/30/lessons/42892)|
