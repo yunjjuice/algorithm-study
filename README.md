@@ -22,7 +22,7 @@ n회차_이름
 
 
 ## 참여자
-[김기훈](https://github.com/kingkihoon94) [박혜진](https://github.com/du-dung) [천용진](https://github.com/sharhp21) [최윤주](https://github.com/yeomju311) [김경재](https://github.com/kyungjae-kim)
+[김기훈](https://github.com/kingkihoon94) [박혜진](https://github.com/du-dung) [천용진](https://github.com/sharhp21) [최윤주](https://github.com/yeomju311) [김경재](https://github.com/kyungjae-kim) [이준상](https://github.com/zunzunzun)
 
 
 ## 운영방법
@@ -38,6 +38,9 @@ n회차_이름
 - 21회차 ~
   - 프로그래머스 위주
   - 문제 푸는 날 : 월화수 금토 에는 하루에 한 문제씩
+  - 리뷰하는 날 : 목요일 일요일
+- 30회차 ~
+  - 문제 푸는 날 : 월화수, 금토 하루에 한 문제씩
   - 리뷰하는 날 : 목요일 일요일
 
 ## 문제 목록
@@ -72,3 +75,8 @@ n회차_이름
 |27회|5월3일(일)|[BOJ 17140 이차원 배열과 연산](https://www.acmicpc.net/problem/17140) * [BOJ 17142 연구소 3](https://www.acmicpc.net/problem/17142)|
 |28회|5월6일(수)|[PROG 외벽점검 lv3](https://programmers.co.kr/learn/courses/30/lessons/60062) * [PROG 기둥과 보 설치 lv3](https://programmers.co.kr/learn/courses/30/lessons/60061)|
 |29회|5월15일(금)|[PROG 길 찾기 게임 lv3](https://programmers.co.kr/learn/courses/30/lessons/42892)|
+|30회|6월25일(목)|[BOJ 19236 청소년 상어](https://www.acmicpc.net/problem/19236) * [BOJ 11967 불켜기](https://www.acmicpc.net/problem/11967) * [BOJ 18500 미네랄2](https://www.acmicpc.net/problem/18500)|
+|31회|6월28일(일)|[BOJ 19237 어른 상어](https://www.acmicpc.net/problem/19237) * [BOJ 19238 스타트 택시](https://www.acmicpc.net/problem/19238)|
+|32회|7월2일(목)|[BOJ 10875 뱀](https://www.acmicpc.net/problem/10875) * [BOJ 17205 진우의 비밀번호](https://www.acmicpc.net/problem/17205)* [BOJ 2096 내려가기](https://www.acmicpc.net/problem/2096)|
+|33회|7월10일(금)|[BOJ 17182 우주 탐사선](https://www.acmicpc.net/problem/17182) * [BOJ 9935 문자열 폭발](https://www.acmicpc.net/problem/9935)* [BOJ 2225 합분해](https://www.acmicpc.net/problem/2225)|
+|34회|7월12일(일)|[BOJ 5721 사탕 줍기 대회](https://www.acmicpc.net/problem/5721) * [BOJ 2143 두 배의 합](https://www.acmicpc.net/problem/2143)|
