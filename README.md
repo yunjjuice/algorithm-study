@@ -77,6 +77,6 @@ n회차_이름
 |29회|5월15일(금)|[PROG 길 찾기 게임 lv3](https://programmers.co.kr/learn/courses/30/lessons/42892)|
 |30회|6월25일(목)|[BOJ 19236 청소년 상어](https://www.acmicpc.net/problem/19236) * [BOJ 11967 불켜기](https://www.acmicpc.net/problem/11967) * [BOJ 18500 미네랄2](https://www.acmicpc.net/problem/18500)|
 |31회|6월28일(일)|[BOJ 19237 어른 상어](https://www.acmicpc.net/problem/19237) * [BOJ 19238 스타트 택시](https://www.acmicpc.net/problem/19238)|
-|32회|7월2일(목)|[BOJ 10875 뱀](https://www.acmicpc.net/problem/10875) * [BOJ 17205 진우의 비밀번호](https://www.acmicpc.net/problem/17205)* [BOJ 2096 내려가기](https://www.acmicpc.net/problem/2096)|
-|33회|7월10일(금)|[BOJ 17182 우주 탐사선](https://www.acmicpc.net/problem/17182) * [BOJ 9935 문자열 폭발](https://www.acmicpc.net/problem/9935)* [BOJ 2225 합분해](https://www.acmicpc.net/problem/2225)|
+|32회|7월2일(목)|[BOJ 10875 뱀](https://www.acmicpc.net/problem/10875) * [BOJ 17205 진우의 비밀번호](https://www.acmicpc.net/problem/17205) * [BOJ 2096 내려가기](https://www.acmicpc.net/problem/2096)|
+|33회|7월10일(금)|[BOJ 17182 우주 탐사선](https://www.acmicpc.net/problem/17182) * [BOJ 9935 문자열 폭발](https://www.acmicpc.net/problem/9935) * [BOJ 2225 합분해](https://www.acmicpc.net/problem/2225)|
 |34회|7월12일(일)|[BOJ 5721 사탕 줍기 대회](https://www.acmicpc.net/problem/5721) * [BOJ 2143 두 배의 합](https://www.acmicpc.net/problem/2143)|
