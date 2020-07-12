@@ -80,9 +80,6 @@ public class BOJ_2143_두배열의합_200712 {
 			int j = i;
 			for (;  j < arr.length; j++) {
 				tmp += arr[j];
-				if(tmp > T) {
-					break;
-				}
 				sublistSum.add(tmp);
 			}
 		}
